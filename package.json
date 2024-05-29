@@ -1,5 +1,5 @@
 {
-  "name": "@virakkhun/mdx",
+  "name": "mdx-util",
   "version": "1.0.0",
   "description": "A util to parse markdown",
   "type": "module",
