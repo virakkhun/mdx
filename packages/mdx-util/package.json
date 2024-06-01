@@ -1,0 +1,33 @@
+{
+  "name": "mdx-util",
+  "version": "1.0.1",
+  "description": "A util to parse markdown",
+  "type": "module",
+  "publishConfig": {
+    "types": "dist/index.d.ts",
+    "typings": "dist/index.d.ts",
+    "main": "dist/index.cjs",
+    "module": "dist/index.mjs"
+  },
+  "main": "src/index.ts",
+  "keywords": [
+    "markdown-parser"
+  ],
+  "author": {
+    "name": "Virak Khun",
+    "email": "virak.dev.2000@gmail.com",
+    "url": "https://virak.vercel.app"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "repository": {
+    "url": "git+https://github.com/virakkhun/mdx"
+  },
+  "bugs": {
+    "url": "git+https://github.com/virakkhun/mdx/issues"
+  }
+}

@@ -1,14 +1,8 @@
 {
-  "name": "mdx-util",
+  "name": "mdx-util@monorepo",
   "version": "1.0.0",
   "description": "A util to parse markdown",
   "type": "module",
-  "publishConfig": {
-    "types": "dist/index.d.ts",
-    "typings": "dist/index.d.ts",
-    "main": "dist/index.cjs",
-    "module": "dist/index.js"
-  },
   "scripts": {
     "build": "rollup -c rollup.config.mjs",
     "test": "vitest"
@@ -16,22 +10,19 @@
   "keywords": [
     "markdown-parser"
   ],
-  "author": {
-    "name": "Virak Khun",
-    "email": "virak.dev.2000@gmail.com",
-    "url": "https://virak.vercel.app"
-  },
-  "license": "MIT",
   "files": [
     "dist",
     "package.json",
     "README.md"
   ],
+  "dependencies": {
+    "mdx-util": "^1.0.0"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.8",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "@types/node": "^20.12.12",
+    "@types/node": "^20.13.0",
     "refractor": "^4.8.1",
     "rehype-format": "^5.0.0",
     "rehype-highlight": "^7.0.0",
@@ -44,13 +35,7 @@
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-esbuild": "^6.1.1",
     "unified": "^11.0.4",
-    "vite": "^5.2.11",
+    "vite": "^5.2.12",
     "vitest": "^1.6.0"
-  },
-  "repository": {
-    "url": "git+https://github.com/virakkhun/mdx"
-  },
-  "bugs": {
-    "url": "git+https://github.com/virakkhun/mdx/issues"
   }
 }

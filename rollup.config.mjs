@@ -4,8 +4,8 @@ import terser from "@rollup/plugin-terser";
 import dts from "rollup-plugin-dts";
 import esbuild from "rollup-plugin-esbuild";
 
-const entry = `./src/index.ts`;
-const output = `./dist`;
+const entry = `./packages/mdx-util/src/index.ts`;
+const output = `./packages/mdx-util/dist`;
 
 const pkgConfigs = [
   {
