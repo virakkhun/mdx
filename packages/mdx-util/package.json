@@ -1,6 +1,6 @@
 {
   "name": "mdx-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A util to parse markdown",
   "type": "module",
   "publishConfig": {
@@ -9,9 +9,14 @@
     "main": "dist/index.cjs",
     "module": "dist/index.mjs"
   },
+  "dependencies": {
+    "refractor": "^4.8.1",
+    "unified": "^11.0.4"
+  },
   "main": "src/index.ts",
   "keywords": [
-    "markdown-parser"
+    "markdown-parser",
+    "markdown-to-html"
   ],
   "author": {
     "name": "Virak Khun",
