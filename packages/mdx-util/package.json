@@ -1,13 +1,13 @@
 {
   "name": "mdx-util",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A util to parse markdown",
   "type": "module",
   "publishConfig": {
     "types": "dist/index.d.ts",
     "typings": "dist/index.d.ts",
     "main": "dist/index.cjs",
-    "module": "dist/index.mjs"
+    "module": "dist/index.js"
   },
   "dependencies": {
     "refractor": "^4.8.1",
