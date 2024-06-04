@@ -1,7 +1,7 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-  entry: ["packages/mdx-util/src/index.ts"],
+  entry: ["packages/mdx-util/index.ts"],
   splitting: false,
   clean: true,
   minify: true,
