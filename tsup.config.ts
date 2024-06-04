@@ -8,5 +8,5 @@ export default defineConfig({
   dts: true,
   outDir: "packages/mdx-util/dist",
   format: ["esm", "cjs"],
-  platform: "neutral",
+  platform: "node",
 });
