@@ -1,6 +1,6 @@
 import { expect, it } from "vitest";
 import { describe } from "vitest";
-import { parseAsync } from "mdx-util";
+import { parseAsync } from "mdx-util/node";
 
 describe("--- Headings ---", () => {
   it("expect # to be h1", async () => {
