@@ -1,4 +1,5 @@
 import { unified } from "unified";
+import { refractor } from "refractor";
 import remarkParse from "remark-parse";
 import remarkGfm from "remark-gfm";
 import remarkRehype from "remark-rehype";
@@ -6,13 +7,11 @@ import rehypeFormat from "rehype-format";
 import rehypeStringify from "rehype-stringify";
 import markdown from "refractor/lang/markdown";
 import rehypePrismGenerator from "rehype-prism-plus/generator";
-import { refractor } from "refractor";
 
 type MDX = string;
 
-refractor.register(markdown);
-
 function processer() {
+  refractor.register(markdown);
   const prism = rehypePrismGenerator(refractor);
   return unified()
     .use(remarkParse)
