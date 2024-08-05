@@ -1,6 +1,6 @@
 {
   "name": "mdx-util",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A util to parse markdown",
   "type": "module",
   "files": [
